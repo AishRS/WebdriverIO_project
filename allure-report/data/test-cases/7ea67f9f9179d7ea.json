@@ -1,0 +1,58 @@
+{
+  "uid" : "7ea67f9f9179d7ea",
+  "name" : "Sign in button should be clicked and login page should be launched",
+  "fullName" : "Verify Validation tooltip on entering a random string instead of email ID.Sign in button should be clicked and login page should be launched",
+  "historyId" : "3f2905439b80e6648fed9beaa4c525d",
+  "time" : {
+    "start" : 1594031769465,
+    "stop" : 1594031771023,
+    "duration" : 1558
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verify Validation tooltip on entering a random string instead of email ID"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Validation tooltip on entering a random string instead of email ID"
+  }, {
+    "name" : "testMethod",
+    "value" : "Sign in button should be clicked and login page should be launched"
+  }, {
+    "name" : "package",
+    "value" : "Verify Validation tooltip on entering a random string instead of email ID"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-83.0.4103.116"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ea67f9f9179d7ea.json",
+  "parameterValues" : [ "chrome-83.0.4103.116" ]
+}

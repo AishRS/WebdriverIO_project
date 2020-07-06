@@ -1,0 +1,79 @@
+{
+  "c486d6ada201fe17b63b1924448353e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "edf5bcc527844ae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593787057679,
+        "stop" : 1593787060784,
+        "duration" : 3105
+      }
+    } ]
+  },
+  "d19cfa6abc7ad3b88c8e9ba1c5012113" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d66f0d32bb1dcae6",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//input[@id=\"ville\"]`) to be enabled\n                \n                Expected: \"enabled\"\n                Received: \"not enabled\"",
+      "time" : {
+        "start" : 1593787060809,
+        "stop" : 1593787081346,
+        "duration" : 20537
+      }
+    } ]
+  },
+  "ada14110f372f9d19e7ea70dd0c33ce8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "121c1de2546fcb2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594031771023,
+        "stop" : 1594031777155,
+        "duration" : 6132
+      }
+    } ]
+  },
+  "3f2905439b80e6648fed9beaa4c525d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ea67f9f9179d7ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594031769465,
+        "stop" : 1594031771023,
+        "duration" : 1558
+      }
+    } ]
+  }
+}

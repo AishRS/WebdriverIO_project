@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Sign in button should be clicked and login page should be launched",
+    "uid" : "edf5bcc527844ae0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1593787057679,
+      "stop" : 1593787060784,
+      "duration" : 3105
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-83.0.4103.116" ]
+  }, {
+    "name" : "City name should auto populate from pin code",
+    "uid" : "d66f0d32bb1dcae6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1593787060809,
+      "stop" : 1593787081346,
+      "duration" : 20537
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-83.0.4103.116" ]
+  }, {
+    "name" : "Sign in button should be clicked and login page should be launched",
+    "uid" : "7ea67f9f9179d7ea",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1594031769465,
+      "stop" : 1594031771023,
+      "duration" : 1558
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-83.0.4103.116" ]
+  }, {
+    "name" : "A validation tooltip should be prompted",
+    "uid" : "121c1de2546fcb2b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1594031771023,
+      "stop" : 1594031777155,
+      "duration" : 6132
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-83.0.4103.116" ]
+  } ]
+}

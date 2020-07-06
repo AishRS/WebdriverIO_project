@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect $(`//input[@id=\"ville\"]`) to be enabled\n                \n                Expected: \"enabled\"\n                Received: \"not enabled\"",
+      "children" : [ {
+        "name" : "City name should auto populate from pin code",
+        "uid" : "d66f0d32bb1dcae6",
+        "parentUid" : "5c84e4f70b82cd22497024f80459ef34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593787060809,
+          "stop" : 1593787081346,
+          "duration" : 20537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-83.0.4103.116" ]
+      } ],
+      "uid" : "5c84e4f70b82cd22497024f80459ef34"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,156 @@
+{
+  "uid" : "539567785067bae3",
+  "name" : "Sign in button should be clicked and login page should be launched",
+  "fullName" : "Click on the Sign in button .Sign in button should be clicked and login page should be launched",
+  "historyId" : "c486d6ada201fe17b63b1924448353e4",
+  "time" : {
+    "start" : 1593786587903,
+    "stop" : 1593786590675,
+    "duration" : 2772
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1593786588010,
+        "stop" : 1593786588376,
+        "duration" : 366
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5cf896edf0af7d1f",
+        "name" : "Request",
+        "source" : "5cf896edf0af7d1f.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "691723e9158cacd8",
+        "name" : "Response",
+        "source" : "691723e9158cacd8.json",
+        "type" : "application/json",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/0.6327711910623175-1/displayed",
+      "time" : {
+        "start" : 1593786588514,
+        "stop" : 1593786588548,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ccdc35013e428b89",
+        "name" : "Response",
+        "source" : "ccdc35013e428b89.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1593786588549,
+        "stop" : 1593786588596,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca93c21804ba63bf",
+        "name" : "Request",
+        "source" : "ca93c21804ba63bf.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "50db69ae83b0daad",
+        "name" : "Response",
+        "source" : "50db69ae83b0daad.json",
+        "type" : "application/json",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/0.6327711910623175-1/click",
+      "time" : {
+        "start" : 1593786588638,
+        "stop" : 1593786590674,
+        "duration" : 2036
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Click on the Sign in button "
+  }, {
+    "name" : "testClass",
+    "value" : "Click on the Sign in button "
+  }, {
+    "name" : "testMethod",
+    "value" : "Sign in button should be clicked and login page should be launched"
+  }, {
+    "name" : "package",
+    "value" : "Click on the Sign in button "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-83.0.4103.116"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "539567785067bae3.json",
+  "parameterValues" : [ "chrome-83.0.4103.116" ]
+}

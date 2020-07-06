@@ -1,0 +1,14 @@
+{
+"email" : "sandra.smith@gmail.com",
+"password": "secretPass",
+"confirmPassword":"secretPass",
+"civility":"Mrs",
+"lastName":"Smith",
+"firstName":"Sandra",
+"day":"15",
+"month":"08",
+"year":"1994",
+"address":"193,Rue du PDT Francois Mtd",
+"zipCode": "91160"
+
+}

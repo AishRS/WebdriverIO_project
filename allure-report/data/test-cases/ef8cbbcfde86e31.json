@@ -1,12 +1,12 @@
 {
-  "uid" : "7ea67f9f9179d7ea",
-  "name" : "Sign in button should be clicked and login page should be launched",
-  "fullName" : "Verify Validation tooltip on entering a random string instead of email ID.Sign in button should be clicked and login page should be launched",
-  "historyId" : "3f2905439b80e6648fed9beaa4c525d",
+  "uid" : "ef8cbbcfde86e31",
+  "name" : "A validation tooltip should be prompted",
+  "fullName" : "Verify Validation tooltip on entering a random string instead of email ID.A validation tooltip should be prompted",
+  "historyId" : "ada14110f372f9d19e7ea70dd0c33ce8",
   "time" : {
-    "start" : 1594031769465,
-    "stop" : 1594031771023,
-    "duration" : 1558
+    "start" : 1594049425050,
+    "stop" : 1594049435471,
+    "duration" : 10421
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,7 +23,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
     "value" : "Verify Validation tooltip on entering a random string instead of email ID"
@@ -32,7 +32,7 @@
     "value" : "Verify Validation tooltip on entering a random string instead of email ID"
   }, {
     "name" : "testMethod",
-    "value" : "Sign in button should be clicked and login page should be launched"
+    "value" : "A validation tooltip should be prompted"
   }, {
     "name" : "package",
     "value" : "Verify Validation tooltip on entering a random string instead of email ID"
@@ -45,14 +45,12 @@
     "value" : "chrome-83.0.4103.116"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7ea67f9f9179d7ea.json",
+  "source" : "ef8cbbcfde86e31.json",
   "parameterValues" : [ "chrome-83.0.4103.116" ]
 }

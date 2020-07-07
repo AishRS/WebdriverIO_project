@@ -1,5 +1,5 @@
 {
-  "uid" : "5f169159de838135",
+  "uid" : "bee52d157501a15b",
   "name" : "Sign in button should be clicked and login page should be launched",
   "fullName" : "Click on the Sign in button .Sign in button should be clicked and login page should be launched",
   "historyId" : "c486d6ada201fe17b63b1924448353e4",
@@ -26,15 +26,15 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "9f56b2279796cc13",
+        "uid" : "d7f57c1d48e0d02b",
         "name" : "Request",
-        "source" : "9f56b2279796cc13.json",
+        "source" : "d7f57c1d48e0d02b.json",
         "type" : "application/json",
         "size" : 58
       }, {
-        "uid" : "a8423789214f6b3f",
+        "uid" : "2d5c4b1256b92971",
         "name" : "Response",
-        "source" : "a8423789214f6b3f.json",
+        "source" : "2d5c4b1256b92971.json",
         "type" : "application/json",
         "size" : 39
       } ],
@@ -53,9 +53,9 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "5e663c0e7860ad46",
+        "uid" : "2d6df70e365ce19f",
         "name" : "Response",
-        "source" : "5e663c0e7860ad46.json",
+        "source" : "2d6df70e365ce19f.json",
         "type" : "application/json",
         "size" : 4
       } ],
@@ -74,15 +74,15 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "d925a4efc4b4411",
+        "uid" : "46438ce0e2e8d8f1",
         "name" : "Request",
-        "source" : "d925a4efc4b4411.json",
+        "source" : "46438ce0e2e8d8f1.json",
         "type" : "application/json",
         "size" : 58
       }, {
-        "uid" : "a674bb804586e958",
+        "uid" : "5a263b31a7145604",
         "name" : "Response",
-        "source" : "a674bb804586e958.json",
+        "source" : "5a263b31a7145604.json",
         "type" : "application/json",
         "size" : 39
       } ],
@@ -151,6 +151,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5f169159de838135.json",
+  "source" : "bee52d157501a15b.json",
   "parameterValues" : [ "chrome-83.0.4103.116" ]
 }

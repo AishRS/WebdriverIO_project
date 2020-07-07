@@ -1,0 +1,100 @@
+{
+  "uid" : "dc00dc6142d8f7be",
+  "name" : "City name should auto populate from pin code",
+  "fullName" : "Verify if the city name is auto populating on entering a pin code.City name should auto populate from pin code",
+  "historyId" : "5e552b38707187481bd724472ade3518",
+  "time" : {
+    "start" : 1594050017962,
+    "stop" : 1594050036238,
+    "duration" : 18276
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//input[@id=\"ville\"]`) to be enabled\n                \n                Expected: \"enabled\"\n                Received: \"not enabled\"",
+  "statusTrace" : "Error: Expect $(`//input[@id=\"ville\"]`) to be enabled\n                \n                Expected: \"enabled\"\n                Received: \"not enabled\"\n                    at LoginPage.verifyIfCityNameAutoPopulates (C:\\Users\\R Aishwarya\\Documents\\WebdriverIO_project\\site.pages\\/LoginPage.js:80:19)\n                    at Context.<anonymous> (C:\\Users\\R Aishwarya\\Documents\\WebdriverIO_project\\site.test\\/verifyAutoPopulationCityName.js:21:15)\n                    at Context.executeSync (C:\\Users\\R Aishwarya\\Documents\\WebdriverIO_project\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\R Aishwarya\\Documents\\WebdriverIO_project\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//input[@id=\"ville\"]`) to be enabled\n                \n                Expected: \"enabled\"\n                Received: \"not enabled\"",
+    "statusTrace" : "Error: Expect $(`//input[@id=\"ville\"]`) to be enabled\n                \n                Expected: \"enabled\"\n                Received: \"not enabled\"\n                    at LoginPage.verifyIfCityNameAutoPopulates (C:\\Users\\R Aishwarya\\Documents\\WebdriverIO_project\\site.pages\\/LoginPage.js:80:19)\n                    at Context.<anonymous> (C:\\Users\\R Aishwarya\\Documents\\WebdriverIO_project\\site.test\\/verifyAutoPopulationCityName.js:21:15)\n                    at Context.executeSync (C:\\Users\\R Aishwarya\\Documents\\WebdriverIO_project\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\R Aishwarya\\Documents\\WebdriverIO_project\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9bfcaff3b85087a4",
+      "name" : "Screenshot",
+      "source" : "9bfcaff3b85087a4.png",
+      "type" : "image/png",
+      "size" : 74288
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verify if the city name is auto populating on entering a pin code"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify if the city name is auto populating on entering a pin code"
+  }, {
+    "name" : "testMethod",
+    "value" : "City name should auto populate from pin code"
+  }, {
+    "name" : "package",
+    "value" : "Verify if the city name is auto populating on entering a pin code"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-83.0.4103.116"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b90ea2ce7dadec94",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//input[@id=\"ville\"]`) to be enabled\n                \n                Expected: \"enabled\"\n                Received: \"not enabled\"",
+      "time" : {
+        "start" : 1594049608553,
+        "stop" : 1594049635174,
+        "duration" : 26621
+      }
+    }, {
+      "uid" : "9673a8490ee39bfe",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//input[@id=\"ville\"]`) to be enabled\n                \n                Expected: \"enabled\"\n                Received: \"not enabled\"",
+      "time" : {
+        "start" : 1594049426028,
+        "stop" : 1594049455488,
+        "duration" : 29460
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dc00dc6142d8f7be.json",
+  "parameterValues" : [ "chrome-83.0.4103.116" ]
+}

@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "edf5bcc527844ae0",
+      "uid" : "366aef7be921c6b8",
       "status" : "passed",
       "time" : {
         "start" : 1593787057679,
@@ -28,7 +28,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d66f0d32bb1dcae6",
+      "uid" : "1716d1305b260b1f",
       "status" : "failed",
       "statusDetails" : "Expect $(`//input[@id=\"ville\"]`) to be enabled\n                \n                Expected: \"enabled\"\n                Received: \"not enabled\"",
       "time" : {
@@ -48,12 +48,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "121c1de2546fcb2b",
+      "uid" : "540b89c33dc7c6cb",
       "status" : "passed",
       "time" : {
-        "start" : 1594031771023,
-        "stop" : 1594031777155,
-        "duration" : 6132
+        "start" : 1594050123789,
+        "stop" : 1594050130417,
+        "duration" : 6628
+      }
+    } ]
+  },
+  "5a3d9f6c69a5572a758f8ad0be045f78" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dce67d87f9b80cc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594050016652,
+        "stop" : 1594050017961,
+        "duration" : 1309
+      }
+    } ]
+  },
+  "5e552b38707187481bd724472ade3518" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc00dc6142d8f7be",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//input[@id=\"ville\"]`) to be enabled\n                \n                Expected: \"enabled\"\n                Received: \"not enabled\"",
+      "time" : {
+        "start" : 1594050017962,
+        "stop" : 1594050036238,
+        "duration" : 18276
       }
     } ]
   },
@@ -67,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7ea67f9f9179d7ea",
+      "uid" : "66aebc4fb744f71b",
       "status" : "passed",
       "time" : {
-        "start" : 1594031769465,
-        "stop" : 1594031771023,
-        "duration" : 1558
+        "start" : 1594050122507,
+        "stop" : 1594050123789,
+        "duration" : 1282
       }
     } ]
   }

@@ -1,6 +1,17 @@
 {
-  "total" : 3,
+  "total" : 4,
   "items" : [ {
+    "uid" : "c49071add8082462ef7e168d3212a01a",
+    "name" : "Verify if the city name is auto populating on entering a pin code",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "9e65e75d3c15a63ae7ccdc73e5125daa",
     "name" : "To verify if the city name auto populates",
     "statistic" : {

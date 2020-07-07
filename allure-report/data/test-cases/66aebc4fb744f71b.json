@@ -1,0 +1,82 @@
+{
+  "uid" : "66aebc4fb744f71b",
+  "name" : "Sign in button should be clicked and login page should be launched",
+  "fullName" : "Verify Validation tooltip on entering a random string instead of email ID.Sign in button should be clicked and login page should be launched",
+  "historyId" : "3f2905439b80e6648fed9beaa4c525d",
+  "time" : {
+    "start" : 1594050122507,
+    "stop" : 1594050123789,
+    "duration" : 1282
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verify Validation tooltip on entering a random string instead of email ID"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Validation tooltip on entering a random string instead of email ID"
+  }, {
+    "name" : "testMethod",
+    "value" : "Sign in button should be clicked and login page should be launched"
+  }, {
+    "name" : "package",
+    "value" : "Verify Validation tooltip on entering a random string instead of email ID"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-83.0.4103.116"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f7a7331f3c81ee24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594049608841,
+        "stop" : 1594049610473,
+        "duration" : 1632
+      }
+    }, {
+      "uid" : "fa98af9ffb1de8b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594049421977,
+        "stop" : 1594049425048,
+        "duration" : 3071
+      }
+    }, {
+      "uid" : "c4ebce2d8a5fe4f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594031769465,
+        "stop" : 1594031771023,
+        "duration" : 1558
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "66aebc4fb744f71b.json",
+  "parameterValues" : [ "chrome-83.0.4103.116" ]
+}

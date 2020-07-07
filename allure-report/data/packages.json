@@ -5,7 +5,7 @@
     "name" : "Click on the Sign in button ",
     "children" : [ {
       "name" : "Sign in button should be clicked and login page should be launched",
-      "uid" : "edf5bcc527844ae0",
+      "uid" : "366aef7be921c6b8",
       "parentUid" : "1b35b9f674b4281909eaf42088c7b855",
       "status" : "passed",
       "time" : {
@@ -22,7 +22,7 @@
     "name" : "To verify if the city name auto populates",
     "children" : [ {
       "name" : "City name should auto populate from pin code",
-      "uid" : "d66f0d32bb1dcae6",
+      "uid" : "1716d1305b260b1f",
       "parentUid" : "c5af1253e369938d9def8b448acff7c3",
       "status" : "failed",
       "time" : {
@@ -36,29 +36,59 @@
     } ],
     "uid" : "c5af1253e369938d9def8b448acff7c3"
   }, {
+    "name" : "Verify if the city name is auto populating on entering a pin code",
+    "children" : [ {
+      "name" : "Sign in button should be clicked and login page should be launched",
+      "uid" : "dce67d87f9b80cc9",
+      "parentUid" : "d664302e550a4fa8b02e2f8e2a5c2ff9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594050016652,
+        "stop" : 1594050017961,
+        "duration" : 1309
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-83.0.4103.116" ]
+    }, {
+      "name" : "City name should auto populate from pin code",
+      "uid" : "dc00dc6142d8f7be",
+      "parentUid" : "d664302e550a4fa8b02e2f8e2a5c2ff9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1594050017962,
+        "stop" : 1594050036238,
+        "duration" : 18276
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-83.0.4103.116" ]
+    } ],
+    "uid" : "d664302e550a4fa8b02e2f8e2a5c2ff9"
+  }, {
     "name" : "Verify Validation tooltip on entering a random string instead of email ID",
     "children" : [ {
       "name" : "Sign in button should be clicked and login page should be launched",
-      "uid" : "7ea67f9f9179d7ea",
+      "uid" : "66aebc4fb744f71b",
       "parentUid" : "94956c2e7ab9032234e971c4c746d979",
       "status" : "passed",
       "time" : {
-        "start" : 1594031769465,
-        "stop" : 1594031771023,
-        "duration" : 1558
+        "start" : 1594050122507,
+        "stop" : 1594050123789,
+        "duration" : 1282
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-83.0.4103.116" ]
     }, {
       "name" : "A validation tooltip should be prompted",
-      "uid" : "121c1de2546fcb2b",
+      "uid" : "540b89c33dc7c6cb",
       "parentUid" : "94956c2e7ab9032234e971c4c746d979",
       "status" : "passed",
       "time" : {
-        "start" : 1594031771023,
-        "stop" : 1594031777155,
-        "duration" : 6132
+        "start" : 1594050123789,
+        "stop" : 1594050130417,
+        "duration" : 6628
       },
       "flaky" : false,
       "newFailed" : false,

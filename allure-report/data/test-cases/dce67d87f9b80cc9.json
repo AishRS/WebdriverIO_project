@@ -1,0 +1,74 @@
+{
+  "uid" : "dce67d87f9b80cc9",
+  "name" : "Sign in button should be clicked and login page should be launched",
+  "fullName" : "Verify if the city name is auto populating on entering a pin code.Sign in button should be clicked and login page should be launched",
+  "historyId" : "5a3d9f6c69a5572a758f8ad0be045f78",
+  "time" : {
+    "start" : 1594050016652,
+    "stop" : 1594050017961,
+    "duration" : 1309
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verify if the city name is auto populating on entering a pin code"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify if the city name is auto populating on entering a pin code"
+  }, {
+    "name" : "testMethod",
+    "value" : "Sign in button should be clicked and login page should be launched"
+  }, {
+    "name" : "package",
+    "value" : "Verify if the city name is auto populating on entering a pin code"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-83.0.4103.116"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fd99134a824f43c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594049606778,
+        "stop" : 1594049608552,
+        "duration" : 1774
+      }
+    }, {
+      "uid" : "4a96a12a43eba6ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594049418071,
+        "stop" : 1594049426027,
+        "duration" : 7956
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dce67d87f9b80cc9.json",
+  "parameterValues" : [ "chrome-83.0.4103.116" ]
+}

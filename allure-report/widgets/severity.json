@@ -1,15 +1,15 @@
 [ {
-  "uid" : "121c1de2546fcb2b",
-  "name" : "A validation tooltip should be prompted",
+  "uid" : "dce67d87f9b80cc9",
+  "name" : "Sign in button should be clicked and login page should be launched",
   "time" : {
-    "start" : 1594031771023,
-    "stop" : 1594031777155,
-    "duration" : 6132
+    "start" : 1594050016652,
+    "stop" : 1594050017961,
+    "duration" : 1309
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "edf5bcc527844ae0",
+  "uid" : "366aef7be921c6b8",
   "name" : "Sign in button should be clicked and login page should be launched",
   "time" : {
     "start" : 1593787057679,
@@ -19,17 +19,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7ea67f9f9179d7ea",
-  "name" : "Sign in button should be clicked and login page should be launched",
-  "time" : {
-    "start" : 1594031769465,
-    "stop" : 1594031771023,
-    "duration" : 1558
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d66f0d32bb1dcae6",
+  "uid" : "1716d1305b260b1f",
   "name" : "City name should auto populate from pin code",
   "time" : {
     "start" : 1593787060809,
@@ -37,5 +27,35 @@
     "duration" : 20537
   },
   "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc00dc6142d8f7be",
+  "name" : "City name should auto populate from pin code",
+  "time" : {
+    "start" : 1594050017962,
+    "stop" : 1594050036238,
+    "duration" : 18276
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "66aebc4fb744f71b",
+  "name" : "Sign in button should be clicked and login page should be launched",
+  "time" : {
+    "start" : 1594050122507,
+    "stop" : 1594050123789,
+    "duration" : 1282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "540b89c33dc7c6cb",
+  "name" : "A validation tooltip should be prompted",
+  "time" : {
+    "start" : 1594050123789,
+    "stop" : 1594050130417,
+    "duration" : 6628
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

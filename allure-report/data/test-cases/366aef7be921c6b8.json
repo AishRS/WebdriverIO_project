@@ -1,5 +1,5 @@
 {
-  "uid" : "edf5bcc527844ae0",
+  "uid" : "366aef7be921c6b8",
   "name" : "Sign in button should be clicked and login page should be launched",
   "fullName" : "Click on the Sign in button .Sign in button should be clicked and login page should be launched",
   "historyId" : "c486d6ada201fe17b63b1924448353e4",
@@ -26,15 +26,15 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "2ee987cc8eaf0e2",
+        "uid" : "c98122669ff5d51e",
         "name" : "Request",
-        "source" : "2ee987cc8eaf0e2.json",
+        "source" : "c98122669ff5d51e.json",
         "type" : "application/json",
         "size" : 58
       }, {
-        "uid" : "86eb7e4ccd052fd",
+        "uid" : "e8ad650a44edf3f3",
         "name" : "Response",
-        "source" : "86eb7e4ccd052fd.json",
+        "source" : "e8ad650a44edf3f3.json",
         "type" : "application/json",
         "size" : 39
       } ],
@@ -53,9 +53,9 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "c0ed8821ab3c3406",
+        "uid" : "ce04326f4d31111d",
         "name" : "Response",
-        "source" : "c0ed8821ab3c3406.json",
+        "source" : "ce04326f4d31111d.json",
         "type" : "application/json",
         "size" : 4
       } ],
@@ -74,15 +74,15 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "62fd83cc27d17eb3",
+        "uid" : "27d9c7f64c292805",
         "name" : "Request",
-        "source" : "62fd83cc27d17eb3.json",
+        "source" : "27d9c7f64c292805.json",
         "type" : "application/json",
         "size" : 58
       }, {
-        "uid" : "9df27b3a16244f27",
+        "uid" : "9b3aacb4ac847986",
         "name" : "Response",
-        "source" : "9df27b3a16244f27.json",
+        "source" : "9b3aacb4ac847986.json",
         "type" : "application/json",
         "size" : 39
       } ],
@@ -150,7 +150,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "5f169159de838135",
+      "uid" : "bee52d157501a15b",
       "status" : "passed",
       "time" : {
         "start" : 1593786777534,
@@ -158,7 +158,7 @@
         "duration" : 1748
       }
     }, {
-      "uid" : "539567785067bae3",
+      "uid" : "b57201b1745b47af",
       "status" : "passed",
       "time" : {
         "start" : 1593786587903,
@@ -169,6 +169,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "edf5bcc527844ae0.json",
+  "source" : "366aef7be921c6b8.json",
   "parameterValues" : [ "chrome-83.0.4103.116" ]
 }

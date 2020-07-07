@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594049608840' stop='1594049617257'>
+    <name>Verify Validation tooltip on entering a random string instead of email ID</name>
+    <title>Verify Validation tooltip on entering a random string instead of email ID</title>
+    <test-cases>
+        <test-case start='1594049608841' status='passed' stop='1594049610473'>
+            <name>Sign in button should be clicked and login page should be launched</name>
+            <title>Sign in button should be clicked and login page should be launched</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.116'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1594049610474' status='passed' stop='1594049617255'>
+            <name>A validation tooltip should be prompted</name>
+            <title>A validation tooltip should be prompted</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.116'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594049418069' stop='1594049455493'>
+    <name>Verify if the city name is auto populating on entering a pin code</name>
+    <title>Verify if the city name is auto populating on entering a pin code</title>
+    <test-cases>
+        <test-case start='1594049418071' status='passed' stop='1594049426027'>
+            <name>Sign in button should be clicked and login page should be launched</name>
+            <title>Sign in button should be clicked and login page should be launched</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.116'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1594049426028' status='failed' stop='1594049455488'>
+            <name>City name should auto populate from pin code</name>
+            <title>City name should auto populate from pin code</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.116'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`//input[@id="ville"]`) to be enabled
+                
+                Expected: "enabled"
+                Received: "not enabled"</message>
+                <stack-trace>Error: Expect $(`//input[@id="ville"]`) to be enabled
+                
+                Expected: "enabled"
+                Received: "not enabled"
+                    at LoginPage.verifyIfCityNameAutoPopulates (C:\Users\R Aishwarya\Documents\WebdriverIO_project\site.pages\/LoginPage.js:80:19)
+                    at Context.&lt;anonymous> (C:\Users\R Aishwarya\Documents\WebdriverIO_project\site.test\/verifyAutoPopulationCityName.js:21:15)
+                    at Context.executeSync (C:\Users\R Aishwarya\Documents\WebdriverIO_project\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\R Aishwarya\Documents\WebdriverIO_project\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
